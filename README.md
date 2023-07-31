@@ -1,1 +1,3 @@
-# fatkiller
+# Веб-приложение "Fatkiller"
+
+## Coming soon...
