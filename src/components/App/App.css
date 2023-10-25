@@ -1,0 +1,22 @@
+/* Global */
+
+* {
+  box-sizing: border-box;
+}
+
+.page {
+  font-family: 'Inter', Arial, sans-serif;
+  color: #fff;
+}
+
+.container {
+  max-width: 1440px;
+  min-height: 100vh;
+  width: 100%;
+  margin: 0 auto;
+  padding: 0 50px;
+  display: flex;
+  flex-direction: column;
+}
+
+/* Mix */
