@@ -1,12 +1,26 @@
 /* Global */
 
+:root {
+  /* bg colors */
+  --bg-pink: #d45072;
+  --bg-green: #3cac3a;
+  --bg-blue: #5269af;
+  /* font-size */
+  --fs-14: 14px;
+  --fs-16: 16px;
+  --fs-18: 18px;
+  --fs-24: 24px;
+  --fs-32: 32px;
+  --fs-48: 48px;
+  --fs-64: 64px;
+}
+
 * {
   box-sizing: border-box;
 }
 
 .page {
   font-family: 'Inter', Arial, sans-serif;
-  color: #fff;
 }
 
 .container {
@@ -20,3 +34,31 @@
 }
 
 /* Mix */
+
+.hover-link {
+  transition: all .2s ease-in-out;
+}
+
+.hover-link:hover {
+  opacity: .7;
+}
+
+.regular {
+  font-weight: 400;
+  line-height: normal;
+}
+
+.medium {
+  font-weight: 500;
+  line-height: normal;
+}
+
+.semibold {
+  font-weight: 600;
+  line-height: normal;
+}
+
+.bold {
+  font-weight: 700;
+  line-height: normal;
+}
