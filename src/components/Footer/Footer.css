@@ -1,3 +1,17 @@
 .footer {
+  padding: 40px 0;
   flex-shrink: 0;
+  display: flex;
+  justify-content: flex-end;
+  gap: 25px;
+  border-top: 1px solid var(--footer-line);
+}
+
+.footer__link {
+  color: #000;
+  text-decoration: none;
+}
+
+.footer__text {
+  font-size: var(--fs-16);
 }

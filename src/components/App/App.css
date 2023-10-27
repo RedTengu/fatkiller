@@ -5,6 +5,9 @@
   --bg-pink: #d45072;
   --bg-green: #3cac3a;
   --bg-blue: #5269af;
+  /* lines colors */
+  --stat-line: #c03f61;
+  --footer-line: #e3e3e3;
   /* font-size */
   --fs-14: 14px;
   --fs-16: 16px;
