@@ -1,4 +1,4 @@
-import Card from '../DiaryCard/DiaryCard';
+import DiaryCard from '../DiaryCard/DiaryCard';
 import StatToday from '../StatToday/StatToday';
 
 import './CardList.css';
@@ -6,9 +6,9 @@ import './CardList.css';
 function CardList() {
   return (
     <ul className="card-list">
-      <Card />
-      <Card />
-      <Card />
+      <DiaryCard />
+      <DiaryCard />
+      <DiaryCard />
       <StatToday />
     </ul>
   );
