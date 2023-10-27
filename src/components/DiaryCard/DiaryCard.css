@@ -1,0 +1,30 @@
+.card {
+  width: 430px;
+  height: 300px;
+  border-radius: 20px;
+}
+
+.diary-link {
+  text-decoration: none;
+}
+
+.diary-card {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  background: url(../../images/workout-card.jpg) no-repeat center; 
+  background-size: 430px 300px;
+  transition: all .2s ease-in-out;
+}
+
+.diary-card:hover {
+  background-size: 450px 320px;
+}
+
+.diary-card__title {
+  margin: 0;
+  color: #fff;
+  font-size: var(--fs-32);
+}
