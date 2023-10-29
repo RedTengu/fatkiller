@@ -1,0 +1,41 @@
+.weather {
+  padding: 0 55px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: flex-start;
+  background-color: var(--bg-blue);
+  color: #fff;
+}
+
+.weather__icon {
+  width: 67px;
+  height: 42px;
+}
+
+.weather__info-degree {
+  margin: 0;
+  font-size: var(--fs-64);
+}
+
+.weather__info-status {
+  margin: 0;
+  font-size: var(--fs-16);
+}
+
+.weather__location {
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+  color: #fff;
+  font-size: var(--fs-14);
+}
+
+.weather__location::before {
+  content: '';
+  width: 15px;
+  height: 15px;
+  margin: 0 5px 0 0;
+  background: url(../../images/location.png) no-repeat center;
+  background-size: 15px;
+}

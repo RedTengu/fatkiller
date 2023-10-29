@@ -1,6 +1,6 @@
-import './WorkoutCheck.css';
 import workoutIcon from '../../images/exercise.svg'
 import restingIcon from '../../images/resting.svg'
+import './WorkoutCheck.css';
 
 function WorkoutCheck() {
   return (
