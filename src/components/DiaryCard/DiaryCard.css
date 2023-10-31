@@ -14,7 +14,8 @@
   justify-content: center;
   align-items: center;
   position: relative;
-  background: url(../../images/workout-card.jpg) no-repeat center; 
+  background-repeat: no-repeat;
+  background-position: center;
   background-size: 430px 300px;
   transition: all .2s ease-in-out;
 }
