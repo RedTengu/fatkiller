@@ -10,20 +10,22 @@ import './CardList.css';
 
 function CardList() {
   return (
-    <ul className="card-list">
-      <DiaryCard 
-        title="Дневник веса" 
-        style={{ backgroundImage: `url(${weightCardImg})` }} />
-      <DiaryCard 
-        title="Дневник калорий" 
-        style={{ backgroundImage: `url(${kcalCardImg})` }}/>
-      <DiaryCard 
-        title="Дневник тренировок" 
-        style={{ backgroundImage: `url(${workoutCardImg})` }}/>
-      <StatToday />
-      <WorkoutCheck />
-      <Weather />
-    </ul>
+    <section className="cards">
+      <ul className="card-list">
+        <DiaryCard 
+          title="Дневник веса" 
+          style={{ backgroundImage: `url(${weightCardImg})` }} />
+        <DiaryCard 
+          title="Дневник калорий" 
+          style={{ backgroundImage: `url(${kcalCardImg})` }}/>
+        <DiaryCard 
+          title="Дневник тренировок" 
+          style={{ backgroundImage: `url(${workoutCardImg})` }}/>
+        <StatToday />
+        <WorkoutCheck />
+        <Weather />
+      </ul>
+    </section>
   );
 }
 

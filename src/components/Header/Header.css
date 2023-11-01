@@ -1,11 +1,19 @@
 .header {
-  padding: 40px 0;
+  padding: 28px 0;
   display: flex;
   justify-content: space-between;
   align-items: center;
 }
 
-.acc-link {
+.navigation__list {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  display: flex;
+  gap: 25px;
+}
+
+.navigation__link {
   display: flex;
   align-items: center;
   text-decoration: none;
@@ -13,7 +21,16 @@
   cursor: pointer;
 }
 
-.acc-link::before {
+.navigation__link_type_stat::before {
+  content: '';
+  width: 12px;
+  height: 14px;
+  margin: 0 10px 0 0;
+  background: url(../../images/stat-icon.png) no-repeat center;
+  background-size: 12px 14px;
+}
+
+.navigation__link_type_acc::before {
   content: '';
   width: 12px;
   height: 14px;
