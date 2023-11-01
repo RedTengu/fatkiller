@@ -4,7 +4,7 @@ import './NotFound.css';
 
 function NotFound() {
   return (
-    <main className="content center">
+    <main className="content">
       <section className="not-found">
         <h1 className="not-found__title medium">404</h1>
         <p className="not-found__subtitle medium">Такой страницы не существует</p>
