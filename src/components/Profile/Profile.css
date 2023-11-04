@@ -1,0 +1,43 @@
+.profile__form {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+
+.profile__form-label {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.profile__input {
+  padding: 10px 5px;
+  width: 300px;
+  border: none;
+  border-bottom: 1px solid rgb(163, 163, 163);
+}
+
+.profile__input:disabled {
+  background: transparent;
+}
+
+.profile__select {
+  padding: 10px 5px;
+  border: none;
+  border-bottom: 1px solid rgb(163, 163, 163);
+  align-self: flex-start;
+}
+
+.profile__select:disabled {
+  color: #000;
+  background: transparent;
+}
+
+.profile__edit-btn {
+  margin: 20px 0 0;
+  padding: 10px;
+  cursor: pointer;
+  background-color: var(--bg-green);
+  border: none;
+  color: #fff;
+}

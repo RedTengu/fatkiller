@@ -14,7 +14,7 @@ function Header() {
             <Link className="navigation__link navigation__link_type_stat hover-link medium" to="#">Статистика</Link>
           </li>
           <li>
-            <Link className="navigation__link navigation__link_type_acc hover-link medium" to="#">Аккаунт</Link>
+            <Link className="navigation__link navigation__link_type_acc hover-link medium" to="profile">Аккаунт</Link>
           </li>
         </ul>
       </nav>
