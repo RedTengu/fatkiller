@@ -11,10 +11,10 @@ function Header() {
       <nav className="navigation">
         <ul className="navigation__list">
           <li>
-            <Link className="navigation__link navigation__link_type_stat hover-link medium" to="#">Статистика</Link>
+            <Link className="navigation__link navigation__link_type_stat hover-link medium" to="/stats">Статистика</Link>
           </li>
           <li>
-            <Link className="navigation__link navigation__link_type_acc hover-link medium" to="profile">Аккаунт</Link>
+            <Link className="navigation__link navigation__link_type_acc hover-link medium" to="/profile">Аккаунт</Link>
           </li>
         </ul>
       </nav>
