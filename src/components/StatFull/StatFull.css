@@ -1,0 +1,22 @@
+.stats-navigation {
+  width: 100%;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.stats-navigation__list {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  display: flex;
+  gap: 20px;
+}
+
+.stats-navigation__link {
+  text-decoration: none;
+  color: #000;
+}
+
+.stats-navigation__link_active {
+  color: var(--bg-pink);
+}
