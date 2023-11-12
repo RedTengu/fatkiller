@@ -18,7 +18,7 @@ type dataType = {
   workoutDiary:{
       id: number,
       name: string,
-      kcalReduce: number,
+      burnedKcal: number,
       date: string
   }[]
 }
@@ -70,7 +70,7 @@ export const data: dataType = {
     {
       id: 1,
       name: 'Бег',
-      kcalReduce: 150,
+      burnedKcal: 150,
       date: '10.11.2023 16:00'
     }
   ]

@@ -40,7 +40,7 @@ function StatsList() {
           return <WorkoutStat 
                     key={item.id}
                     name={item.name}
-                    kcalReduce={item.kcalReduce}
+                    kcalReduce={item.burnedKcal}
                     date={item.date} />
         })
       }
