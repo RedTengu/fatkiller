@@ -1,6 +1,11 @@
+import { useSelector } from 'react-redux';
+
 import './Profile.css';
 
 function Profile() {
+  // убрать any
+  const { username, email, gender, height, weight, objective } = useSelector((state: any) => state.user)
+  
   return (
     <section className="profile">
       <form className="profile__form">
@@ -12,7 +17,7 @@ function Profile() {
             name="name" 
             id="name"
             placeholder="Введите имя"
-            defaultValue="Мурат"
+            value={username}
             disabled />
         </label>
         <label className="profile__form-label" htmlFor="email">
@@ -23,7 +28,7 @@ function Profile() {
             name="email" 
             id="email"
             placeholder="example@mail.com"
-            defaultValue="mb@gmail.com"
+            value={email}
             disabled />
         </label>
         <label className="profile__form-label" htmlFor="gender">
@@ -32,9 +37,10 @@ function Profile() {
             className="profile__select" 
             name="gender" 
             id="gender"
+            value={gender}
             disabled>   
-              <option>Мужской</option>
-              <option>Женский</option>
+              <option value="M">Мужской</option>
+              <option value="F">Женский</option>
           </select>
         </label>
         <label className="profile__form-label" htmlFor="height">
@@ -45,7 +51,7 @@ function Profile() {
             name="height" 
             id="height"
             placeholder="Ваш рост"
-            defaultValue="183"
+            value={height}
             disabled />
         </label>
         <label className="profile__form-label" htmlFor="weight">
@@ -56,7 +62,7 @@ function Profile() {
             name="weight" 
             id="weight"
             placeholder="Ваш вес"
-            defaultValue="80"
+            value={weight}
             disabled />
         </label>
         <label className="profile__form-label" htmlFor="objective">
@@ -65,10 +71,11 @@ function Profile() {
             className="profile__select" 
             name="objective" 
             id="objective"
+            value={objective}
             disabled>   
-              <option selected>Похудение</option>
-              <option>Сохранение веса</option>
-              <option>Набор веса</option>
+              <option value="loss" selected>Похудение</option>
+              <option value="safe">Сохранение веса</option>
+              <option value="gain">Набор веса</option>
           </select>
         </label>
         <button type="button" className="profile__edit-btn hover-link">Редактировать</button>
