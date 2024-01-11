@@ -1,46 +1,71 @@
-# Getting Started with Create React App
+# Веб-приложение "Fatkiller"
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Демо
 
-## Available Scripts
+👉 [Click here!](https://redtengu.github.io/fatkiller/) 👈
 
-In the project directory, you can run:
+## Описание
 
-### `npm start`
+**Fatkiller** - веб-приложение, которое помогает следить за весом, количеством потребляемых и сожженных калорий.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+На данный момент проект представляет из себя рабочее демо с имитацией бэкенда, которое можно быстро превратить в полноценный проект.
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+Цель создания этого пет-проекта - изучение Redux / RTK и TypeScript в связке с React.
 
-### `npm test`
+### Функциональность пользователя:
+- Расчет нормы калорий по формулам, исходя из параметров конкретного человека.
+- Три дневника, в которых ведутся записи веса, потребляемых и соженных калорий.
+- Виджет статистики дня. Отображает текущий вес и количество калорий, которое осталось на сегодня.
+- Виджет напоминание. Показывает тренировался ли сегодня пользователь. Картинка и текст изменяются. 
+- Виджет погоды. Показывает текущую погоду. Город можно менять. Удобно для тех, кто занимается на улице.
+- Статистика позволяет отслеживать / редактировать / удалять записи из всех дневников.
+- Хотя профиль является имитацией, его можно полноценно редактировать. Приложение автоматически учтет новые параметры.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## Технологии:
+* 🌌 HTML / CSS
+* 💪 Flexbox
+* ⌨️ JavaScript
+* ⌨️ TypeScript
+* ⚛ React
+* ⚙ Redux / RTK
 
-### `npm run build`
+На данный момент проект еще недоработан так, как мне этого бы хотелось. Об этом ниже.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## Планы по доработке:
+- Избавиться от повторов в коде.
+- Разбить общий слайс на несколько.
+- Оптимизация. Мемоизация функций. Избавление от перерендеров.
+- Кастомная валидация полей форм. Приложение можно сломать неадекватно введенными данными.
+- Прелоадер для виджета погоды.
+- Менять цвет виджета тренировок, для большей информативности.
+- Показывать что-то при отсутствии записи в дневнике.
+- Отзывчивая верстка.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+Для сборки приложения и адаптации под различные браузеры используется связка Webpack и Babel встроенная в Create React App.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+Используется методология БЭМ в нейминге.
 
-### `npm run eject`
+## Установка
+1. Клонировать репозиторий:
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+````
+git clone https://github.com/RedTengu/fatkiller.git
+````
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+2. Установить зависимости:
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+````
+npm install
+````
+    
+3. Собрать билд:
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+````
+npm run build
+````
+    
+4. Запустить на локальном сервере:
 
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
+````
+npm run start
+````
