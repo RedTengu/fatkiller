@@ -1,21 +1,25 @@
+// React
 import { useEffect} from 'react';
+// React Router
 import { Routes, Route, useLocation, useNavigate } from 'react-router-dom';
 
+// Components
 import NotFound from '../NotFound/NotFound';
 import CardList from '../CardList/CardList';
 import Profile from '../Profile/Profile';
 import StatFull from '../StatFull/StatFull';
 import StatsList from '../StatsList/StatsList';
 
+// CSS
 import './Main.css';
 
 function Main() {
   const location = useLocation();
   const navigate = useNavigate();
 
-  // Исправить баг со /stats/
+  // Если путь соответствует условию - перенаправлять на статистику веса
   useEffect(() => {
-    if(location.pathname === '/stats') {
+    if(location.pathname === '/stats' || location.pathname === '/stats/') {
       navigate('/stats/weight');
     }
   }, [location.pathname, navigate]);

@@ -1,4 +1,7 @@
+// React Router
 import { Link } from 'react-router-dom';
+
+// CSS
 import logo from '../../images/logo.png'
 import './Logo.css';
 

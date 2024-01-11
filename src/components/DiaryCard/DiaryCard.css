@@ -4,8 +4,11 @@
   border-radius: 20px;
 }
 
-.diary-link {
-  text-decoration: none;
+.diary-btn {
+  padding: 0;
+  cursor: pointer;
+  background-color: transparent;
+  border: none;
 }
 
 .diary-card {

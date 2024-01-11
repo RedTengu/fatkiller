@@ -1,7 +1,8 @@
+// React Router
 import { Link } from 'react-router-dom';
 
+// CSS
 import Logo from '../Logo/Logo';
-
 import './Header.css';
 
 function Header() {

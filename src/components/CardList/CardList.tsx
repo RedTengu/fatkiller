@@ -1,12 +1,15 @@
+// Components
 import DiaryCard from '../DiaryCard/DiaryCard';
 import StatToday from '../StatToday/StatToday';
 import WorkoutCheck from '../WorkoutCheck/WorkoutCheck';
 import Weather from '../Weather/Weather';
 
+// CSS
 import weightCardImg from '../../images/weight-card.jpg'
 import kcalCardImg from '../../images/kcal-card.jpg'
 import workoutCardImg from '../../images/workout-card.jpg'
 import './CardList.css';
+
 
 function CardList() {
   return (

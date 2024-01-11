@@ -11,14 +11,42 @@
   height: 80px;
   padding: 0 20px;
   display: flex;
-  justify-content: space-between;
-  align-items: center;
   background-color: var(--bg-grey);
   border-radius: 20px;
 }
 
-.stats-list__elem-name {
+.stats-list__form {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.stats-list__wrapper {
+  display: flex;
+  align-items: center;
+}
+
+.stats-list__elem-date {
+  margin: 0;
+}
+
+.stats-list__input {
+  max-width: 90px;
+  height: 41px;
+  text-align: right;
+  font-size: var(--fs-32);
+  border: none;
+  background: transparent;
+}
+
+.stats-list__input-name {
   font-size: var(--fs-20);
+}
+
+
+.stats-list__input:disabled {
+  color: #000;
 }
 
 .stats-list__elem-value {
@@ -48,5 +76,10 @@
 
 .stats-list__elem-delete {
   background: url(../../images/delete-button.png) no-repeat center;
+  background-size: 20px 20px;
+}
+
+.stats-list__elem-submit {
+  background: url(../../images/submit-icon.png) no-repeat center;
   background-size: 20px 20px;
 }

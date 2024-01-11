@@ -1,4 +1,7 @@
+// React Router
 import { Outlet, NavLink } from 'react-router-dom';
+
+// CSS
 import './StatFull.css';
 
 function StatFull() {

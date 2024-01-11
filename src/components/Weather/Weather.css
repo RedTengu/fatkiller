@@ -1,16 +1,22 @@
 .weather {
-  padding: 0 55px;
+  padding: 15px 55px;
   display: flex;
   flex-direction: column;
-  justify-content: space-evenly;
+  justify-content: space-between;
   align-items: flex-start;
   background-color: var(--bg-blue);
   color: #fff;
 }
 
+.weather__info-wrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
 .weather__icon {
-  width: 67px;
-  height: 42px;
+  width: 100px;
+  height: 100px;
 }
 
 .weather__info-degree {
@@ -24,11 +30,15 @@
 }
 
 .weather__location {
+  padding: 0;
   display: flex;
   align-items: center;
   text-decoration: none;
   color: #fff;
   font-size: var(--fs-14);
+  background: transparent;
+  border: none;
+  cursor: pointer;
 }
 
 .weather__location::before {
