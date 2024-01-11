@@ -1,0 +1,30 @@
+{
+  "files": {
+    "main.css": "/static/css/main.f12a0456.css",
+    "main.js": "/static/js/main.7b6139fd.js",
+    "static/media/weight-card.jpg": "/static/media/weight-card.03598272696a9d0564c0.jpg",
+    "static/media/workout-card.jpg": "/static/media/workout-card.987bcf7294c61cf34277.jpg",
+    "static/media/kcal-card.jpg": "/static/media/kcal-card.1a48b150486defaa2a15.jpg",
+    "static/media/Inter-Bold.woff": "/static/media/Inter-Bold.93c1301bd9f486c573b3.woff",
+    "static/media/Inter-SemiBold.woff": "/static/media/Inter-SemiBold.cca62d21c8c555c392e5.woff",
+    "static/media/Inter-Medium.woff": "/static/media/Inter-Medium.9053572c46aeb4b16caa.woff",
+    "static/media/Inter-Bold.woff2": "/static/media/Inter-Bold.ec64ea577b0349e055ad.woff2",
+    "static/media/Inter-Medium.woff2": "/static/media/Inter-Medium.293fd13dbca5a3e450ef.woff2",
+    "static/media/Inter-SemiBold.woff2": "/static/media/Inter-SemiBold.b5f0f109bc88052d4000.woff2",
+    "static/media/Inter-Regular.woff2": "/static/media/Inter-Regular.c8ba52b05a9ef10f4758.woff2",
+    "static/media/delete-button.png": "/static/media/delete-button.7c6432cea5b85f8da102.png",
+    "static/media/location.png": "/static/media/location.4947ab6c77744edd1376.png",
+    "static/media/exercise.svg": "/static/media/exercise.6a2820dd912bd493535c7dabd300425b.svg",
+    "static/media/resting.svg": "/static/media/resting.b3d7a95f19c39bf4eb42905442a056aa.svg",
+    "static/media/edit-button.svg": "/static/media/edit-button.3d874d5ebd9734c17c67.svg",
+    "index.html": "/index.html",
+    "static/media/acc-icon.svg": "/static/media/acc-icon.a80c98f47813ebb78e81.svg",
+    "static/media/close-btn.svg": "/static/media/close-btn.2ceb783afbab75916ddc.svg",
+    "main.f12a0456.css.map": "/static/css/main.f12a0456.css.map",
+    "main.7b6139fd.js.map": "/static/js/main.7b6139fd.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.f12a0456.css",
+    "static/js/main.7b6139fd.js"
+  ]
+}
